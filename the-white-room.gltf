@@ -1,0 +1,503 @@
+{
+	"asset": {
+		"generator": "Khronos glTF Blender I/O v4.2.80",
+		"version": "2.0"
+	},
+	"extensionsUsed": [
+		"KHR_materials_emissive_strength"
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Scene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "The-White-Room-Mesh"
+		}
+	],
+	"materials": [
+		{
+			"name": "The-White-Room-1",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicRoughnessTexture": {
+					"index": 1
+				}
+			}
+		},
+		{
+			"name": "The-White-Room-2",
+			"normalTexture": {
+				"index": 2
+			},
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 3
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0
+			}
+		},
+		{
+			"emissiveFactor": [
+				1,
+				0.8468729853630066,
+				0.5711249709129333
+			],
+			"emissiveTexture": {
+				"index": 4
+			},
+			"extensions": {
+				"KHR_materials_emissive_strength": {
+					"emissiveStrength": 10
+				}
+			},
+			"name": "The-White-Room-3",
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					0,
+					0,
+					0,
+					1
+				],
+				"metallicFactor": 0,
+				"roughnessFactor": 0
+			}
+		},
+		{
+			"emissiveFactor": [
+				0.7196829915046692,
+				0.8815839886665344,
+				1
+			],
+			"emissiveTexture": {
+				"index": 5
+			},
+			"extensions": {
+				"KHR_materials_emissive_strength": {
+					"emissiveStrength": 5
+				}
+			},
+			"name": "The-White-Room-4",
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					0,
+					0,
+					0,
+					1
+				],
+				"metallicFactor": 0,
+				"roughnessFactor": 0
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "The-White-Room-Mesh",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0
+				},
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 9,
+					"material": 1
+				},
+				{
+					"attributes": {
+						"POSITION": 10,
+						"NORMAL": 11,
+						"TEXCOORD_0": 12,
+						"TANGENT": 13
+					},
+					"indices": 14,
+					"material": 2
+				},
+				{
+					"attributes": {
+						"POSITION": 15,
+						"NORMAL": 16,
+						"TEXCOORD_0": 17,
+						"TANGENT": 18
+					},
+					"indices": 19,
+					"material": 3
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"sampler": 0,
+			"source": 4
+		},
+		{
+			"sampler": 0,
+			"source": 5
+		}
+	],
+	"images": [
+		{
+			"mimeType": "image/png",
+			"name": "the-white-room-1",
+			"uri": "the-white-room-1.png"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "the-white-room-1_s",
+			"uri": "the-white-room-1_s.png"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "the-white-room-2_n",
+			"uri": "the-white-room-2_n.png"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "the-white-room-2",
+			"uri": "the-white-room-2.png"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "the-white-room-3",
+			"uri": "the-white-room-3.png"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "the-white-room-4",
+			"uri": "the-white-room-4.png"
+		}
+	],
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5126,
+			"count": 136575,
+			"max": [
+				2.8651576042175293,
+				3.1426637172698975,
+				3.9017322063446045
+			],
+			"min": [
+				-2.8651580810546875,
+				-1.1746305972337723e-07,
+				-3.9017322063446045
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 136575,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 136575,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 136575,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5125,
+			"count": 473592,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"componentType": 5126,
+			"count": 3315,
+			"max": [
+				2.167208671569824,
+				0.8420353531837463,
+				0.523572564125061
+			],
+			"min": [
+				-0.7672504186630249,
+				0.0009179681655950844,
+				-2.8412234783172607
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"componentType": 5126,
+			"count": 3315,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 7,
+			"componentType": 5126,
+			"count": 3315,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 8,
+			"componentType": 5126,
+			"count": 3315,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 9,
+			"componentType": 5123,
+			"count": 18384,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 10,
+			"componentType": 5126,
+			"count": 1078,
+			"max": [
+				0.432282954454422,
+				2.674808979034424,
+				-1.0483391284942627
+			],
+			"min": [
+				-0.23103190958499908,
+				2.089367389678955,
+				-1.7090188264846802
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 11,
+			"componentType": 5126,
+			"count": 1078,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 12,
+			"componentType": 5126,
+			"count": 1078,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 13,
+			"componentType": 5126,
+			"count": 1078,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 14,
+			"componentType": 5123,
+			"count": 6036,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 15,
+			"componentType": 5126,
+			"count": 593,
+			"max": [
+				2.571608304977417,
+				1.5707683563232422,
+				-2.357933521270752
+			],
+			"min": [
+				2.1185429096221924,
+				1.2240357398986816,
+				-2.8088221549987793
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 16,
+			"componentType": 5126,
+			"count": 593,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 17,
+			"componentType": 5126,
+			"count": 593,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 18,
+			"componentType": 5126,
+			"count": 593,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 19,
+			"componentType": 5123,
+			"count": 2148,
+			"type": "SCALAR"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 1638900,
+			"byteOffset": 0,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1638900,
+			"byteOffset": 1638900,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1092600,
+			"byteOffset": 3277800,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2185200,
+			"byteOffset": 4370400,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1894368,
+			"byteOffset": 6555600,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 39780,
+			"byteOffset": 8449968,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 39780,
+			"byteOffset": 8489748,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26520,
+			"byteOffset": 8529528,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 53040,
+			"byteOffset": 8556048,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36768,
+			"byteOffset": 8609088,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12936,
+			"byteOffset": 8645856,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12936,
+			"byteOffset": 8658792,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8624,
+			"byteOffset": 8671728,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17248,
+			"byteOffset": 8680352,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12072,
+			"byteOffset": 8697600,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7116,
+			"byteOffset": 8709672,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7116,
+			"byteOffset": 8716788,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4744,
+			"byteOffset": 8723904,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9488,
+			"byteOffset": 8728648,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4296,
+			"byteOffset": 8738136,
+			"target": 34963
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9987
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 8742432,
+			"uri": "the-white-room.bin"
+		}
+	]
+}
